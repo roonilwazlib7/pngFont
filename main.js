@@ -1,9 +1,12 @@
 var fs = require('fs');
 var electron = require('electron');
+var shell = require('shelljs');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 var mainWindow = null;
+
+shell.exec("coffee --inline-map --compile --output Core/ Src/");
 
 function StartWindow()
 {
