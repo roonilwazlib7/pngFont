@@ -11,6 +11,7 @@ CHARS += ".,<>/?"
 
 class PngFont
     renderX: 0
+    renderY: 0
     fontSize: 18
     font: "monospace"
     fontColor: "black"
@@ -33,6 +34,10 @@ class PngFont
             $(@renderedFont).remove()
             @renderedFont = null
 
+        @fontAtlas =
+            "torch-texture-atlas": true
+            textures: []
+
         @canvas.clearRect(0, 0, @renderX, 400)
         @renderX = 0
 
@@ -49,6 +54,10 @@ class PngFont
         @canvas.font = "#{@fontSize}px #{@font}"
 
         @canvas.fillText(char, @renderX, @fontSize)
+        @fontAtlas.textures.push
+            name: char
+            clipX: @renderX
+            clipY: @renderY
 
         @renderX += @canvas.measureText(char).width
 
@@ -86,13 +95,26 @@ class PngFont
             if not fileName?
                 alert("no file selected")
             else
-                console.log(@renderedFont)
                 buffer = canvasBuffer(@renderedFont, "image/png")
+
+                # write the font image
                 fs.writeFile fileName, buffer, (err) ->
                     if err?
                         alert("An error occured! #{err.message}")
                     else
                         alert("File Saved")
+
+                # write the texture atlas JSON
+                fs.writeFile fileName + ".json", JSON.stringify(@fontAtlas, null, 4), (err) ->
+                    if err?
+                        alert("An error occured! #{err.message}")
+
+    OpenFont: ->
+        dialog.showOpenDialog (fileNames) =>
+            if fileNames?
+                # do stuff with it
+            else
+                alert("No File selected")
 
 $(document).ready ->
     pngFont = exports.pngFont = new PngFont()

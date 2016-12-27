@@ -1,0 +1,295 @@
+{
+    "torch-texture-atlas": true,
+    "textures": [
+        {
+            "name": "a",
+            "clipX": 0,
+            "clipY": 0
+        },
+        {
+            "name": "b",
+            "clipX": 10.8017578125,
+            "clipY": 0
+        },
+        {
+            "name": "c",
+            "clipX": 21.603515625,
+            "clipY": 0
+        },
+        {
+            "name": "d",
+            "clipX": 32.4052734375,
+            "clipY": 0
+        },
+        {
+            "name": "e",
+            "clipX": 43.20703125,
+            "clipY": 0
+        },
+        {
+            "name": "f",
+            "clipX": 54.0087890625,
+            "clipY": 0
+        },
+        {
+            "name": "g",
+            "clipX": 64.810546875,
+            "clipY": 0
+        },
+        {
+            "name": "h",
+            "clipX": 75.6123046875,
+            "clipY": 0
+        },
+        {
+            "name": "i",
+            "clipX": 86.4140625,
+            "clipY": 0
+        },
+        {
+            "name": "j",
+            "clipX": 97.2158203125,
+            "clipY": 0
+        },
+        {
+            "name": "k",
+            "clipX": 108.017578125,
+            "clipY": 0
+        },
+        {
+            "name": "l",
+            "clipX": 118.8193359375,
+            "clipY": 0
+        },
+        {
+            "name": "m",
+            "clipX": 129.62109375,
+            "clipY": 0
+        },
+        {
+            "name": "n",
+            "clipX": 140.4228515625,
+            "clipY": 0
+        },
+        {
+            "name": "o",
+            "clipX": 151.224609375,
+            "clipY": 0
+        },
+        {
+            "name": "p",
+            "clipX": 162.0263671875,
+            "clipY": 0
+        },
+        {
+            "name": "q",
+            "clipX": 172.828125,
+            "clipY": 0
+        },
+        {
+            "name": "r",
+            "clipX": 183.6298828125,
+            "clipY": 0
+        },
+        {
+            "name": "s",
+            "clipX": 194.431640625,
+            "clipY": 0
+        },
+        {
+            "name": "t",
+            "clipX": 205.2333984375,
+            "clipY": 0
+        },
+        {
+            "name": "u",
+            "clipX": 216.03515625,
+            "clipY": 0
+        },
+        {
+            "name": "v",
+            "clipX": 226.8369140625,
+            "clipY": 0
+        },
+        {
+            "name": "w",
+            "clipX": 237.638671875,
+            "clipY": 0
+        },
+        {
+            "name": "x",
+            "clipX": 248.4404296875,
+            "clipY": 0
+        },
+        {
+            "name": "y",
+            "clipX": 259.2421875,
+            "clipY": 0
+        },
+        {
+            "name": "z",
+            "clipX": 270.0439453125,
+            "clipY": 0
+        },
+        {
+            "name": "A",
+            "clipX": 280.845703125,
+            "clipY": 0
+        },
+        {
+            "name": "B",
+            "clipX": 291.6474609375,
+            "clipY": 0
+        },
+        {
+            "name": "C",
+            "clipX": 302.44921875,
+            "clipY": 0
+        },
+        {
+            "name": "D",
+            "clipX": 313.2509765625,
+            "clipY": 0
+        },
+        {
+            "name": "E",
+            "clipX": 324.052734375,
+            "clipY": 0
+        },
+        {
+            "name": "F",
+            "clipX": 334.8544921875,
+            "clipY": 0
+        },
+        {
+            "name": "G",
+            "clipX": 345.65625,
+            "clipY": 0
+        },
+        {
+            "name": "H",
+            "clipX": 356.4580078125,
+            "clipY": 0
+        },
+        {
+            "name": "I",
+            "clipX": 367.259765625,
+            "clipY": 0
+        },
+        {
+            "name": "J",
+            "clipX": 378.0615234375,
+            "clipY": 0
+        },
+        {
+            "name": "K",
+            "clipX": 388.86328125,
+            "clipY": 0
+        },
+        {
+            "name": "L",
+            "clipX": 399.6650390625,
+            "clipY": 0
+        },
+        {
+            "name": "M",
+            "clipX": 410.466796875,
+            "clipY": 0
+        },
+        {
+            "name": "N",
+            "clipX": 421.2685546875,
+            "clipY": 0
+        },
+        {
+            "name": "O",
+            "clipX": 432.0703125,
+            "clipY": 0
+        },
+        {
+            "name": "P",
+            "clipX": 442.8720703125,
+            "clipY": 0
+        },
+        {
+            "name": "Q",
+            "clipX": 453.673828125,
+            "clipY": 0
+        },
+        {
+            "name": "R",
+            "clipX": 464.4755859375,
+            "clipY": 0
+        },
+        {
+            "name": "S",
+            "clipX": 475.27734375,
+            "clipY": 0
+        },
+        {
+            "name": "T",
+            "clipX": 486.0791015625,
+            "clipY": 0
+        },
+        {
+            "name": "U",
+            "clipX": 496.880859375,
+            "clipY": 0
+        },
+        {
+            "name": "V",
+            "clipX": 507.6826171875,
+            "clipY": 0
+        },
+        {
+            "name": "W",
+            "clipX": 518.484375,
+            "clipY": 0
+        },
+        {
+            "name": "X",
+            "clipX": 529.2861328125,
+            "clipY": 0
+        },
+        {
+            "name": "Y",
+            "clipX": 540.087890625,
+            "clipY": 0
+        },
+        {
+            "name": "Z",
+            "clipX": 550.8896484375,
+            "clipY": 0
+        },
+        {
+            "name": ".",
+            "clipX": 561.69140625,
+            "clipY": 0
+        },
+        {
+            "name": ",",
+            "clipX": 572.4931640625,
+            "clipY": 0
+        },
+        {
+            "name": "<",
+            "clipX": 583.294921875,
+            "clipY": 0
+        },
+        {
+            "name": ">",
+            "clipX": 594.0966796875,
+            "clipY": 0
+        },
+        {
+            "name": "/",
+            "clipX": 604.8984375,
+            "clipY": 0
+        },
+        {
+            "name": "?",
+            "clipX": 615.7001953125,
+            "clipY": 0
+        }
+    ]
+}
